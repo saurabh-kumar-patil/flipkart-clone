@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --main-bg-color : #2874f0 ;
+}
+
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+header{
+    /* width: 100vw; */
+    /* position: fixed; */
+    /* z-index: 10; */
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto Slab', serif;
+    /* margin-top:0px; */
+    /* color: white; */
+
+}
+
+nav{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin-top:0px ;
+}
+.logo{
+    display: flex;
+    padding: 0px 15px;
+}
+.logo img{
+    /* width: 8vw; */
+    height: 5vh;
+    cursor: pointer;
+}
+nav ul{
+    height: 7vh;
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search button{
+    margin-right: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+button:hover{
+    font-weight: bolder;
+    color: orange;
+    border-color: orange;
+}
+
+.search input{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin:0px 10px 0px 45px ;
+    padding: 0px 12px;
+}
+
+.container{
+    height: 100%;
+    /* background-color: orange; */
+    /* min-height: 83vh ; */
+    /* width: 100vh; */
+    /* min-height: calc(100%-10vh-7vh); */
+    /* used calc fun in css  */
+}
+.slider , .slider img{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.card .item-name h2{
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+}
+.card .item-name button{
+    margin-right: 25px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-weight: 700; */
+    font-size: 1.5vw;
+    height: 5vh;
+    width: 10vw;
+}
+.item-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin: 15px auto;
+    width: 90vw;
+    /* background-color: rgb(174, 230, 238); */
+    /* overflow: scroll; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card_item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    /* margin: auto 25px; */
+    /* padding: 0px 10px; */
+}
+.card_item img{
+    width: 160px;
+    margin: 0px 10px;
+}
+
+footer{
+    height: 10vh;
+
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}

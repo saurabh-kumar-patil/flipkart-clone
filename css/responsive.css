@@ -1,0 +1,32 @@
+@media  screen and (max-width:1000px) {
+    body{
+        /* background-color:red ; */
+    }
+    header{
+        height: 20vh;
+    }
+    .slider{
+        height: 23vh;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0px;
+    }
+    nav ul {
+        justify-content: center;
+        height: 34px;
+    }
+    .search{
+        justify-content: center;
+        margin: 20px;
+    }
+    .card_item img {
+        width: 144px;
+    }
+    .cards{
+        overflow:auto;
+    }
+}
